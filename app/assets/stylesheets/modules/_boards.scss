@@ -41,13 +41,14 @@ body {
           height: 100%;
           width: 50%;
           list-style: none;
-          padding-top: 300px;
-          padding-left: 300px;
+          padding-top: 450px;
+          padding-left: 550px;
 
           li.link-box__left_login {
             height: 150px;
             width: 400px;
-            background-color: rgb(116, 126, 27);
+            background-color: rgb(251, 252, 246);
+            color: gray;
             font-size: 50px;
             font-weight: bold;
             text-align: center;
@@ -68,7 +69,7 @@ body {
             line-height: 150px;
             border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
             padding: 2%;
-            opacity: 0.6;
+            opacity: 0;
           }
         }
 
@@ -78,6 +79,7 @@ body {
           list-style: none;
           padding-top: 300px;
           padding-right: 300px;
+          opacity: 0;
 
           li.link-box__right_facebook {
             height: 150px;
@@ -132,6 +134,7 @@ body {
             height: 150px;
             width: 400px;
             background-color: rgb(116, 126, 27);
+            color: black;
             font-size: 50px;
             font-weight: bold;
             transform: rotate(-10deg);
@@ -180,9 +183,9 @@ body {
             width: 400px;
             background-color: rgb(226, 134, 14);
             color: rgb(211, 50, 21);
-            font-size: 50px;
+            font-size: 80px;
             font-weight: 1200;
-            transform: rotate(-370deg);
+            transform: rotate(-360deg);
             transition: 1s;
             text-align: center;
             line-height: 150px;
@@ -199,6 +202,7 @@ body {
           list-style: none;
           padding-top: 400px;
           padding-right: 100px;
+          opacity: 1;
 
           li.link-box__right_facebook {
             height: 150px;
