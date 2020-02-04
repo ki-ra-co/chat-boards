@@ -1,0 +1,96 @@
+body {
+
+  .board-wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(boards.jpg);
+    background-size: 100%;
+    
+
+    &__header {
+      height: 15%;
+      width: 100%;
+      background-image: url(boards-header.jpg);
+      
+      h1 {
+        font-weight: bold;
+        font-size: 100px;
+        color: rgb(216, 152, 34);  
+        text-align: center;
+        text-shadow:  20px 20px 20px black;
+        padding-top: 20px;
+      }
+    }
+
+    .board-wrapper__link-box {
+      display: flex;
+      ul.link-box__left {
+        height: 100%;
+        width: 50%;
+        list-style: none;
+        padding-top: 300px;
+        padding-left: 500px;
+
+        li.link-box__left_login {
+          height: 150px;
+          width: 400px;
+          background-color: rgb(116, 126, 27);
+          font-size: 50px;
+          font-weight: bold;
+          transform: rotate(-10deg);
+          text-align: center;
+          line-height: 150px;
+          margin-bottom: 100px;
+          border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+          padding: 2%;
+        }
+        li.link-box__left__create {
+          height: 150px;
+          width: 400px;
+          background-color: rgb(116, 126, 27);
+          font-size: 50px;
+          font-weight: bold;
+          transform: rotate(-10deg);
+          text-align: center;
+          line-height: 150px;
+          border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+          padding: 2%;
+        }
+      }
+
+      ul.link-box__right {
+        height: 100%;
+        width: 50%;
+        list-style: none;
+        padding-top: 300px;
+        padding-right: 500px;
+
+        li.link-box__right_facebook {
+          height: 150px;
+          width: 400px;
+          background-color: rgb(116, 126, 27);
+          font-size: 50px;
+          font-weight: bold;
+          transform: rotate(10deg);
+          text-align: center;
+          line-height: 150px;
+          margin-bottom: 100px;
+          border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+          padding: 2%;
+        }
+        li.link-box__right_twitter {
+          height: 150px;
+          width: 400px;
+          background-color: rgb(116, 126, 27);
+          font-size: 50px;
+          font-weight: bold;
+          transform: rotate(10deg);
+          text-align: center;
+          line-height: 150px;
+          border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+          padding: 2%;
+        }
+      }
+    }
+  }
+}
