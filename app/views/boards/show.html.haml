@@ -1,0 +1,9 @@
+.board-wrapper
+  .board-wrapper__header
+    =@post.title 
+  .board-wrapper__center
+    .board-wrapper_upper
+      =@post.created_at
+      =simple_format @post.content
+    .board-wrapper_bottom
+      Go to Chat

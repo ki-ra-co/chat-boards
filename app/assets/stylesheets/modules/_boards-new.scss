@@ -1,0 +1,41 @@
+.board-wrapper {
+  height: 100vh;
+  width: 100vw;
+
+  &__header {
+    height: 15%;
+    width: 100%;
+    background-image: url(boards-header.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    &__left {
+      height: 100%;
+      width: 70%;
+      background-color: rgb(223, 204, 97);
+      color: blue;
+      font-weight: bold;
+      text-align: center;
+    }
+    &__right {
+      height: 100%;
+      width: 30%;
+      background-color: rgb(223, 204, 97);
+      color: blue;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  &__container {
+    height: 85%;
+    width: 100%;
+    background-image: url(boards-hover.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    &__box {
+      height: 100%;
+      width: 50%;
+      text-align: center;
+    }
+  }
+}

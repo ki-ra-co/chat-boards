@@ -1,0 +1,13 @@
+.board-wrapper
+  .board-wrapper__header
+    .board-wrapper__header__left
+      Let's write a headline!
+    .board-wrapper__header__right
+      HOME
+  .board-wrapper__container
+    .board-wrapper__container__box
+      = form_with model: @boards, local: true do |form|
+        = form.text_field :title
+        = form.text_field :content
+        = form.submit '投稿する'
+
