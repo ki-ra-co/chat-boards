@@ -3,8 +3,6 @@ body {
   .board-wrapper {
     height: 100vh;
     width: 100vw;
-    
-    
 
     &__header {
       height: 15%;
@@ -145,6 +143,7 @@ body {
             border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
             padding: 2%;
             opacity: 0.8;
+            cursor: pointer;
           }
           li.link-box__left_login:hover {
             height: 150px;
@@ -177,6 +176,7 @@ body {
             border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
             padding: 2%;
             opacity: 0.8;
+            cursor: pointer;
           }
           li.link-box__left__create:hover {
             height: 150px;
@@ -218,6 +218,7 @@ body {
             border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
             padding: 2%;
             opacity: 0.8;
+            cursor: pointer;
           }
           li.link-box__right_facebook:hover {
             height: 150px;
@@ -249,6 +250,7 @@ body {
             margin-left: 30px;
             padding: 2%;
             opacity: 0.8;
+            cursor: pointer;
           }
           li.link-box__right_twitter:hover {
             height: 150px;
