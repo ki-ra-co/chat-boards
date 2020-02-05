@@ -8,22 +8,28 @@
     background-image: url(boards-header.jpg);
     background-size: 100%;
     display: flex;
-    justify-content: space-between;
     &__left {
-      height: 100%;
-      width: 70%;
-      background-color: rgb(223, 204, 97);
-      color: blue;
+      height: 50%;
+      width: 50%;
+      color: rgb(95, 10, 10);
+      text-shadow:  20px 20px 20px black;
       font-weight: bold;
       text-align: center;
+      font-size: 70px;
+      line-height: 90px;
+      margin-top: 30px;
+      margin-left: 550px;
     }
     &__right {
-      height: 100%;
-      width: 30%;
+      height: 50%;
+      width: 20%;
       background-color: rgb(223, 204, 97);
-      color: blue;
+      color: rgb(214, 74, 39);
       font-weight: bold;
+      font-size: 50px;
+      line-height: 90px;
       text-align: center;
+      margin-top: 30px;
     }
   }
   &__container {
