@@ -6,8 +6,8 @@
       HOME
   .board-wrapper__container
     .board-wrapper__container__box
-      = form_with model: @boards, local: true do |form|
-        = form.text_field :title
-        = form.text_field :content
-        = form.submit '投稿する'
+      = form_with(model: @board, local: true) do |form|
+        = form.text_field :title, placeholder: "タイトル", class: :form_title
+        = form.text_field :content,placeholder: :chatの説明文, class: :form_content
+        = form.submit '投稿する',class: :form__btn
 
