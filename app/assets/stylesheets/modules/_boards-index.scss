@@ -55,6 +55,17 @@ body {
             border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
             padding: 2%;
             opacity: 0.6;
+            position: relative;
+          }
+          .login-font{
+            text-decoration: none;
+            position: absolute;
+            top: 7px;
+            left: 10px;
+            opacity: 0;
+          }
+          .login-font:link {
+            font-size: 170px;
           }
           li.link-box__left__create {
             height: 150px;
@@ -91,6 +102,16 @@ body {
             padding: 2%;
             opacity: 0.6;
           }
+          .facebook-font {
+            text-decoration: none;
+            position: absolute;
+            top: 7px;
+            left: 10px;
+            opacity: 0;
+          }
+          .facebook-font:link {
+            font-size: 110px;
+          }
           li.link-box__right_twitter {
             height: 150px;
             width: 400px;
@@ -103,11 +124,18 @@ body {
             padding: 2%;
             opacity: 0.6;
           }
-        }
+          .twitter-font {
+            text-decoration: none;
+            position: absolute;
+            top: 7px;
+            left: 10px;
+            opacity: 0;
+          }
+          .twitter-font:link {
+            font-size: 160px;
+          }
       }
-
-
-
+    }
       .board-wrapper__link-box:hover {
         display: flex;
         height: 100%;
@@ -149,7 +177,7 @@ body {
             width: 400px;
             background-color:yellow;
             color: aqua;
-            font-size: 80px;
+            font-size: 100px;
             font-weight: bold;
             transform: rotateX(10deg);
             transition: 1s;
@@ -256,7 +284,7 @@ body {
             width: 400px;
             background-color: rgb(39, 218, 231);
             color: #fff;
-            font-size: 80px;
+            font-size: 100px;
             font-weight: bold;
             transform: rotate(-10deg);
             transition: 1s;
